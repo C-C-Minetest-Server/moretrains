@@ -134,7 +134,7 @@ advtrains.register_wagon("moretrains_silberling", {
 			[1]={frames={x=10, y=20}, time=1}
 		}
 	},
-	door_entry={-1.7},
+	door_entry={-1.7, 1.7},
 	assign_to_seat_group = {"pass"},
 	visual_size = {x=1, y=1},
 	wagon_span=3,
@@ -202,7 +202,7 @@ advtrains.register_wagon("moretrains_silberling_dining", {
 			[1]={frames={x=10, y=20}, time=1}
 		}
 	},
-	door_entry={-1.7},
+	door_entry={-1.7, 1.7},
 	assign_to_seat_group = {"pass"},
 	visual_size = {x=1, y=1},
 	wagon_span=3,
@@ -313,6 +313,8 @@ advtrains.register_wagon("moretrains_silberling_train", {
 			[1]={frames={x=30, y=40}, time=1}
 		}
 	},
+	door_entry={-1.7},
+	assign_to_seat_group = {"pass"},
 	visual_size = {x=1, y=1},
 	wagon_span=3,
 	is_locomotive=false,
